@@ -84,7 +84,7 @@ add_shortcode( 'pp', 'pp_shortcode' );
     add_action('um_profile_content_edudash_default', 'um_profile_content_edudash_default');
     function um_profile_content_edudash_default( $args ) {
       // Admin Role Check
-      if (um_user('role_name') == 'Admin') {
+      if (um_user('role_name') == 'EM Faculty') {
       get_template_part( 'edudash' );
       }
       else{
