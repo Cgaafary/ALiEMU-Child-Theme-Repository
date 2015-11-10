@@ -1,0 +1,728 @@
+/*
+ Theme Name:   Divi Child
+ Theme URI:    http://www.aliemu.com
+ Description:  ALiEMU Divi Child Theme
+ Author:       Chris Gaafary
+ Author URI:   http://www.aliemu.com
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  aliemu-divi-child
+*/
+
+/* Enter Your Custom CSS Here */
+
+/****GENERAL THEME STYLING*****/
+
+#left-area ol, .entry-content ol, .comment-content ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+    letter-spacing: 1px;
+}
+
+p {
+  letter-spacing: 0.01em;
+  word-spacing: 0.05em;
+}
+/*Styling for the embed frames*/
+
+.au-air-frame {
+  margin-top: -60px;
+  margin-bottom: 30px;
+  font-family: 'Lato';
+}
+
+.au-air-frame iframe {
+  box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.3);
+}
+
+.au-air-frame h2 {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 4px;
+  margin-botton: 6px;
+  box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.3);
+  }
+
+  #left-area ul.badgeos-achievement-earners-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  /********************************
+  Elegant Themes Styling
+  *********************************/
+
+/*Style Portraits to Circles*/
+.au-person-circle img {
+    border-radius: 100%;
+}
+
+/*TEAM MEMBER HEADERS*/
+.au-team-header h1 {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 3em;
+}
+
+/*Remove padding on homepage slider*/
+  #post-2 .entry-content {
+    padding: 0;
+  }
+
+/*TOOL TIP FORMATTING*/
+.et-tooltip-box {
+  left: -133px !important;
+  width: 400px !important;
+  font-family: 'Lato';
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+/*Intro Text Styling*/
+.au-intro-text {
+  font-family: 'Lato';
+  border: 0;
+  margin: 10px 0 30px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+  overflow: auto;
+}
+
+.au-intro-text h2 {
+  color: white;
+  /*background-color: #D0021B;*/
+  text-align: center;
+  font-weight: 900;
+  padding: 10px;
+  margin: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+.au-air-intro h2 {
+  background-color: #D0021B;
+
+}
+
+.au-capsules-intro h2 {
+  background: rgb(74, 144, 226);
+}
+
+.au-intro-text p {
+  border-top: 0px;
+  font-weight: 400;
+  padding: 30px !important;
+  line-height: 1.3;
+  letter-spacing: 0.7px;
+}
+
+.au-air-intro-logo {
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+
+/*Course Dashboard Header Styling*/
+#au-coursedashboard-header {
+  background: #4A90E2;
+}
+
+#au-coursedashboard-header h1 {
+    font-size: 3em;
+    font-family: "lato";
+    font-weight: 800;
+    color: white;
+}
+
+/********************************
+Course Boxes CSS
+*********************************/
+
+/*Creating the box for the course grid*/
+
+.au-coursebox {
+	height: 380px;
+	max-width: 480px;
+	background: #F5F5F5;
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+  position: relative;
+}
+
+.au-courseheader {
+	height: 64px;
+	color: white;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
+}
+
+/*Setting the header background colors*/
+
+.au-capsules {
+	background: rgb(74, 144, 226);
+}
+
+.au-air {
+	background: #D0021B;
+}
+
+/*Formatting for header text*/
+
+.au-timer {
+	padding: 0 20px;
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+}
+
+.au-timer h2 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.au-dot {
+	float:left;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 0 0 20px;
+}
+
+
+/*Formatting for the body text*/
+
+.au-coursebody {
+	padding: 10px 30px;
+}
+.au-coursebody h3 {
+	font-weight: 700;
+	font-size: 1em;
+	color: #9B9B9B;
+	margin-bottom: 10px;
+}
+
+.au-coursebody h1 {
+	font-weight: 400;
+	font-size: 2em;
+	margin-top: 15px;
+}
+
+.au-coursebody p {
+	font-weight: 300;
+	color: #666;
+}
+
+
+/*Formatting for the course buttons*/
+
+/*Capsules Red Button*/
+
+.au-button-capsules, .au-button-air {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+.au-button-capsules a {
+    padding: 10px 15px;
+    background: rgba(0,0,0,0);
+		border: solid 2px rgb(74, 144, 226);
+		border-radius: 5px;
+    color: rgb(74, 144, 226);
+	text-decoration: none;
+}
+
+.au-button-capsules a:hover {
+	/*padding: 10px 15px;*/
+	background: rgb(74, 144, 226);
+	color: white;
+}
+
+/*Air Blue Button*/
+
+
+.au-button-air a {
+    padding: 10px 15px;
+    background: rgba(0,0,0,0);
+		border: solid 2px #D0021B;
+		border-radius: 5px;
+    color: #D0021B;
+	text-decoration: none;
+}
+
+.au-button-air a:hover {
+	/*padding: 10px 15px;*/
+	background: #D0021B;
+	color: white;
+}
+
+
+
+
+
+
+/***************************
+LEARNDASH SPECIFIC CSS
+***************************/
+
+/*LESSON FORMATTING*/
+
+.sfwd-lessons h1, .sfwd-courses h1, .sfwd-topic h1, .sfwd-quiz h1 {
+  background: rgb(74, 144, 226);
+  color: white;
+  padding: 15px 10px;
+	font-family: 'Lato';
+	font-weight: 700;
+	text-align: left;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#left-area .post-meta, #wc_show_hide_loggedin_username {
+	font-family: 'Lato';
+	font-weight: 300;
+  font-size: 1em;
+  padding: 10px;
+	color: black;
+}
+
+#left-area li {
+  margin-left: 20px;
+}
+
+.entry-content {
+	font-family: 'Lato';
+	font-size: 1.1em;
+	padding: 0 10px;
+  letter-spacing: inherit;
+}
+
+
+
+/*AIR H3 HEADERS*/
+
+#content-area.category-air.learndash h3 {
+  background: #4A90E2 !important;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  margin-bottom: 0.5em;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+
+/*JOIN COURSE BUTTON FORMATTING*/
+#btn-join {
+  width: 100%;
+}
+
+/* LESSONS, TOPICS AND QUIZ LIST FORMATTING */
+
+#lessons_list, #quiz_list, #learndash_lesson_topics_list div > strong {
+	font-family: 'Lato' !important;
+	font-size: 1.5em !important;
+	font-weight: 300 !important;
+}
+
+#course_list h4 a, #lessons_list a, #quiz_list a, .learndash_topic_dots a > span {
+	font-family: 'Lato' !important;
+	color: black !important;
+	font-weight: 300 !important;
+	font-size: 1rem !important;
+}
+
+.learndash_profile_heading, #lesson_heading, #quiz_heading, #learndash_lesson_topics_list div > strong {
+	background-color: rgb(74, 144, 226) !important;
+	color: white !important;
+	border-top-left-radius: 3px !important;
+	border-top-right-radius: 3px !important;
+	padding: 1% 2% !important;
+	font-family: 'Lato' !important;
+	font-weight: 400 !important;
+	font-size: 1.25em !important;
+	margin: 0 !important;
+	display: block !important;
+}
+
+/*FORMATTING FOR LESSON LISTS INCLUDING CHECKBOXES*/
+
+/*COMPLETED LESSONS*/
+.learndash .completed, #learndash_profile .completed {
+  background: url(images/completed.png) no-repeat;
+  display: block;
+  line-height: 53px;
+  background-position: 97.9% center;
+  padding-left: 2%;
+  padding-right: 15% !important;
+}
+
+/*NOT COMPLETED LESSONS*/
+.learndash .notcompleted, #learndash_profile .notcompleted {
+  background: url(images/notcompleted.png) no-repeat;
+  display: block;
+  line-height: 53px;
+  background-position: 97.9% center;
+  padding-left: 2%;
+  padding-right: 15% !important;
+}
+
+
+
+/*LEARNDASH JOIN BUTTON FORMATTING*/
+.learndash_join_button {
+  margin-bottom: 20px;
+}
+
+.wpProQuiz_answerCorrect {
+    background: #5CB85C !important;
+    font-weight: bold !important;
+    color: white;
+}
+
+.wpProQuiz_answerIncorrect {
+    background: #EF001D !important;
+    font-weight: bold !important;
+    color: white;
+}
+
+
+
+/*END OF LEARNDASH STYLING*/
+
+
+/*WordPress Image Box w/ Caption Formatting*/
+.wp-caption {
+    border: 0;
+    text-align: center;
+    background-color: #FFF;
+    padding-top: 4px;
+    margin: 20px 0;
+    /* max-width: 96%; */
+    padding: 8px;
+    font-family: 'Lato';
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 1.25rem;
+    padding: 0 4px 5px;
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Lato';
+}
+
+/*TAKE HOME POINT FORMATTING*/
+
+.take-home-point {
+    font-family: 'Lato';
+    border: 0;
+    margin: 10px 0 30px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+.take-home-point h2 {
+    color: white;
+    background-color: #4A90E2;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+.take-home-point h4 {
+  /*border: 1px solid #ddd;*/
+  border-top: 0px;
+  font-weight: 400;
+  padding: 30px;
+  text-align: center;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+
+/*CAPSULE box formatting*/
+.au-capsule {
+    font-family: 'Lato';
+    border: 0;
+    margin: 10px 0 30px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+.au-capsule h2 {
+    color: white;
+    background-color: #4A90E2;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    letter-spacing: 1px;
+}
+
+.au-capsule h4 {
+  /*border: 1px solid #ddd;*/
+  border-top: 0px;
+  font-weight: 400;
+  padding: 30px;
+  text-align: center;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+
+/*LESSON BOX STYLING*/
+
+.lesson-box {
+	/*background: #FFFFFF;*/
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+	font-family:'Lato';
+  margin: 3em 0 3em;
+}
+
+.lesson-box header {
+	background: #4A90E2;
+	color: white;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	padding: 1% 2%;
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 1.25em;
+	margin: 0;
+	display: block;
+	letter-spacing: inherit;
+	text-align: center;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+.lesson-box header a {
+  color: white;
+}
+
+.lesson-body {
+  /*border: 1px solid #ddd;*/
+  border-top: 0px;
+	line-height: 1.3;
+	letter-spacing: 0.5px;
+	padding: 20px;
+}
+
+.lesson-body h3 {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 4px;
+  margin-bottom: 1rem;
+}
+
+.lesson-body p, .lesson-body ul li {
+	font-weight: 400;
+  padding: 0 10px;
+}
+
+.lesson-body ul li {
+	margin-bottom: 0.5em;
+}
+
+.lesson-body ul {
+  margin-top:0.3em;
+}
+
+
+/*BUTTON STYLING*/
+
+#sfwd-mark-complete > input[type="submit"]:nth-child(2), #learndash_next_prev_link > a,
+#wpcomm .wc-field-submit input[type="button"],
+a#quiz_continue_link {
+  	/*-moz-box-shadow:inset 0px -3px 7px 0px darkgrey;
+	-webkit-box-shadow:inset 0px -3px 7px 0px darkgrey;
+	box-shadow:inset 0px -3px 7px 0px darkgrey;*/
+	background-color:#4A90E2 !important;
+	-moz-border-radius:3px !important;
+	-webkit-border-radius:3px !important;
+	border-radius:3px !important;
+	border:none !important;
+	display:inline-block !important;
+	cursor:pointer !important;
+	color:#ffffff !important;
+	font-family:'Lato' !important;
+	font-size:1em !important;
+	padding:9px 23px !important;
+	text-decoration:none !important;
+	/*text-shadow:0px 1px 0px #263666;*/
+}
+
+#sfwd-mark-complete > input[type="submit"]:nth-child(2):hover,
+#learndash_next_prev_link > a:hover,
+a#quiz_continue_link:hover {
+  	background-color:#4382CB !important;
+}
+
+#sfwd-mark-complete > input[type="submit"]:nth-child(2):active, #learndash_next_prev_link > a:active,
+a#quiz_continue_link:active {
+	position:relative;
+	top:1px;
+}
+
+/*COURSE PROGRESS STYLING*/
+
+#ldcourseprogress-2 > h4 {
+  background: #4A90E2;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+input#btn-join {
+  background: #4A90E2;
+  margin: 20px 0 0 0;
+}
+
+input#btn-join:hover {
+  background: #4A90E2;
+  box-shadow: 1px 1px 1px 1px rgba(255, 0, 0, 0.2);
+}
+
+/*#ldcourseprogress-2 {
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+  padding-bottom: 2px;
+}*/
+
+#learndash_course_content {
+  margin: 20px 0;
+}
+
+/**************************
+TABLEPRESS FORMATTING
+**************************/
+
+.tablepress thead th {
+  background-color: rgb(74, 144, 226);
+  color: white;
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.tablepress-table-name {
+  font-family: 'Lato';
+  font-weight: 600;
+  text-align: center;
+}
+
+#content-area .au-table-needsborders td {
+    border: 1px solid lightgrey;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/************************
+ULTIMATE MEMBER FORMATTING
+*************************/
+/*img.gravatar.avatar.avatar-40.um-avatar {*/
+img.um-avatar {
+  border-radius: 100px;
+  width: 25px;
+  position: relative;
+  top: 7px;
+  margin-left: 8px;
+}
+
+.um-online > div.um-online-user > div > a > img {
+  border-radius: 100px;
+  width: 25px;
+  position: relative;
+  top: 0px;
+  margin-left: 0px;
+}
+
+.um-online-user {
+  width: auto;
+  height: auto;
+}
+
+.um-message-header img.um-avatar {
+  min-height: 20px !important;
+}
+
+/*.um-online-pic a, .um-online-pic img {
+  border-radius: 100px !important;
+  display: block;
+  overflow: hidden;
+  max-width: 40px;
+  max-height: 40px;
+  height: auto !important;
+}*/
+
+
+/*COMMENT FORMATTNG*/
+#wc-comment-header {
+    color: white;
+    background-color: #4A90E2;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 40px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    /*box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);*/
+}
+
+
+/*BIO BOX FORMATTING*/
+.ts-fab-avatar .avatar {
+    width: 85%;
+}
+
+.ts-fab-wrapper {
+    padding: 1em 0;
+    clear: both;
+}
+
+
+/***************************
+MEDIA QUERIES
+***************************/
+
+/*Formats container width for lessons*/
+@media (max-width: 780px) {
+  .et_pb_row, .container, .et_pb_container {
+  width: 95%;
+}
+}
+
+/** Format Full Screen Sliders to Show Content **/
+@media only screen and (max-width: 479px) {
+.et_pb_slide_description {
+  padding: 20px 0px 10px;
+}
+.et_pb_slide_content, .et_pb_more_button {
+  display: block !important;
+}
+}

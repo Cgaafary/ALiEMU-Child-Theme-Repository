@@ -1,0 +1,6 @@
+[01-Oct-2015 16:38:41 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/aliemu/public_html/wp-content/themes/Divi-child/snippet2.php on line 547
+[01-Oct-2015 16:39:13 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/aliemu/public_html/wp-content/themes/Divi-child/snippet2.php on line 547
+[01-Oct-2015 16:40:03 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/aliemu/public_html/wp-content/themes/Divi-child/snippet2.php on line 550
+[01-Oct-2015 16:40:22 CST6CDT] PHP Fatal error:  Call to undefined function add_filter() in /home/aliemu/public_html/wp-content/themes/Divi-child/snippet2.php on line 567
+[02-Oct-2015 14:02:52 CST6CDT] PHP Fatal error:  Call to undefined function is_user_logged_in() in /home/aliemu/public_html/wp-content/themes/Divi-child/snippet.php on line 2
+[02-Oct-2015 15:20:06 CST6CDT] PHP Fatal error:  Call to undefined function is_user_logged_in() in /home/aliemu/public_html/wp-content/themes/Divi-child/snippet.php on line 2
